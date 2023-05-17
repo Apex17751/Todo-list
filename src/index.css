@@ -24,17 +24,49 @@
   }
   
 }
+@media (max-width: 1000px) {
+  #update{
+    width: 60%;
+    margin: auto;
+    display: block;
+    transform: translateX(5px);
+  }
+  
+}
+@media (max-width: 800px) {
+ #btnz{
+  transform: translateX(-35px);
+ }
+  
+}
+@media (min-width: 800px) {
+ #btnz{
+  transform: translateX(-100px);
+ }
+  
+}
 @media (max-width: 800px) {
   #with, #btn{
     width: 70%;
   }
-  
 }
 @media (min-width: 801px) and (max-width: 1020px) {
   #with, #btn{
     width: 70%;
   }
-  
+ 
+  #btnz{
+    transform: translateX(-40px);
+  }
+}
+
+@media (min-width: 200px) and (max-width: 500px) {
+ #update{
+  transform: translateX(15px);
+ }
+ #btnz{
+  transform: translateX(-20px);
+ }
 }
 #btn{
   margin: auto;
@@ -47,4 +79,17 @@
 }
 #edit{
   transform: translateX(-30px);
+}
+
+@media (max-width: 400px) {
+  #trash{
+    padding-left: 8px;
+  }
+  
+}
+@media (min-width: 400px) and (max-width: 640px) {
+  #trash{
+    padding-left: 15px;
+  }
+  
 }
